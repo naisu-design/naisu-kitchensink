@@ -1,0 +1,14 @@
+{
+    "tasks": {
+        "dev": "RUST_LOG=debug dws",
+        "start": "deno task dev"
+    },
+    "compilerOptions": {
+        "checkJs": true,
+        "strictNullChecks": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    }
+}

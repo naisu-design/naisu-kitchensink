@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import url("/deps/@naisu/naisu_css/src/style.css");
+
+body {
+    background-color: var(--ds-color-background);
+    color: var(--ds-color-on-background);
+}

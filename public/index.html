@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchensink</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body style="padding: 32px">
+    <p>
+        Kitchensink
+    </p>
+    <x-switch id="theme-switch"></x-switch>
+    <script type="importmap">
+    {
+        "imports": {
+            "@reizu/": "/deps/@reizu/",
+            "@naisu/": "/deps/@naisu/"
+        }
+    }
+    </script>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
