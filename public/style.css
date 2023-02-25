@@ -2,6 +2,6 @@
 @import url("/deps/@naisu/naisu-css/src/style.css");
 
 body {
-    background-color: var(--ds-color-background);
-    color: var(--ds-color-on-background);
+    background-color: var(--color-background);
+    color: var(--color-on-background);
 }
