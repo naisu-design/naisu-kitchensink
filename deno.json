@@ -1,6 +1,6 @@
 {
     "tasks": {
-        "dev": "RUST_LOG=debug dws",
+        "dev": "RUST_LOG=debug wdt",
         "start": "deno task dev"
     },
     "compilerOptions": {
