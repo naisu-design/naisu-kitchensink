@@ -9,8 +9,8 @@
 </head>
 
 <body class="p-8">
-    <div class="m-4">
-        <p class="mb-1">Kitchensink</p>
+    <div class="m-4 mb-8">
+        <p class="font-headline-small mb-2">Kitchensink</p>
         <x-switch id="theme-switch"></x-switch>
     </div>
 
@@ -21,6 +21,10 @@
         <x-button class="text">Text</x-button>
     </div>
 
+    <div class="m-4">
+        <x-progress-circle value="0.6" style="width: 32px; height: 32px;" />
+    </div>
+
     <script type="importmap">
     {
         "imports": {
@@ -29,6 +33,7 @@
         }
     }
     </script>
+
     <script type="module" src="/main.js"></script>
 </body>
 
