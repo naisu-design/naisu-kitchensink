@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "@reizu/": "./deps/@reizu/",
+        "@naisu/": "./deps/@naisu/"
+    }
+}
