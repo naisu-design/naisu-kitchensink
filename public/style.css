@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
-@import url("/@naisu/naisu-web-ds/css/style.css");
+@import url("@naisu/naisu-web-ds/style.css");
 
 body {
     background-color: var(--color-background);
