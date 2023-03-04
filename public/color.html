@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .swatch {
+            width: 320px;
+            height: 240px;
+            text-align: center;
+            line-height: 240px;
+        }
+    </style>
+</head>
+
+<body class="p-8">
+    <div class="grid">
+        <div class="swatch" style="background-color: var(--color-primary);">Primary</div>
+        <div class="swatch" style="background-color: var(--color-primary-container);">Primary container</div>
+        <div class="swatch" style="background-color: var(--color-secondary);">Secondary</div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "@reizu/": "/@reizu/",
+            "@naisu/": "/@naisu/"
+        }
+    }
+    </script>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
