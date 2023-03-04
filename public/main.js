@@ -4,7 +4,6 @@ import { CircularProgressIndicatorElement } from "@naisu/naisu-web-components/in
 import { SwitchElement } from "@naisu/naisu-web-components/switch/switch.js";
 import { TabGroupElement } from "@naisu/naisu-web-components/tabs/tab-group.js";
 import { TabElement } from "@naisu/naisu-web-components/tabs/tab.js";
-import { nonNull } from "@reizu/glue/assert.js";
 
 customElements.define("x-switch", SwitchElement);
 customElements.define("x-button", ButtonElement);
@@ -13,7 +12,7 @@ customElements.define("x-tab", TabElement);
 customElements.define("x-tab-group", TabGroupElement);
 customElements.define("x-divider", DividerElement);
 
-const tabs = nonNull(document.querySelector("#tabs"));
+const tabs = /** @type { Element } */ (document.querySelector("#tabs"));
 tabs.addEventListener("change", (e) => {
     const ev = /** @type { CustomEvent } */ (e);
     console.log("---", ev.detail.active);
