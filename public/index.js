@@ -1,3 +1,4 @@
+import { DisclosureElement } from "@naisu/naisu-web-components/accordion/disclosure.js";
 import { ButtonElement } from "@naisu/naisu-web-components/buttons/button.js";
 import { DividerElement } from "@naisu/naisu-web-components/divider/divider.js";
 import { CircularProgressIndicatorElement } from "@naisu/naisu-web-components/indicators/circular-progress-indicator.js";
@@ -13,6 +14,7 @@ customElements.define("x-tab", TabElement);
 customElements.define("x-tab-group", TabGroupElement);
 customElements.define("x-divider", DividerElement);
 customElements.define("x-theme-switch", ThemeSwitchElement);
+customElements.define("x-disclosure", DisclosureElement);
 
 const tabs = /** @type { Element } */ (document.querySelector("#tabs"));
 tabs.addEventListener("change", (e) => {
