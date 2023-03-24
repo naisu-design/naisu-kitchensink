@@ -37,7 +37,18 @@
         <x-progress-circle value="0.3" class="w-8 h-8" disabled />
     </div>
 
-    <div class="m=4">
+    <!-- <div class="m-4">
+        <x-skeleton class="w-18 h-4 corner-extra-small"></x-skeleton>
+        <br />
+        <x-skeleton class="corner-extra-small" style="width: 320px; height: 240px"></x-skeleton>
+    </div> -->
+
+    <div class="m-4">
+        <div class="skeleton w-18 h-4 corner-extra-small mb-4"></div>
+        <div class="skeleton corner-extra-small" style="width: 320px; height: 240px"></div>
+    </div>
+
+    <div class="m-4">
         <x-disclosure class="rounded-medium">
             <div slot="summary" class="p-4">This is a nice summary</div>
             <div class="p-4">
