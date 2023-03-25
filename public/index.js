@@ -5,6 +5,8 @@ import { CircularProgressIndicatorElement } from "@naisu/naisu-web-components/in
 import { SwitchElement } from "@naisu/naisu-web-components/switch/switch.js";
 import { TabGroupElement } from "@naisu/naisu-web-components/tabs/tab-group.js";
 import { TabElement } from "@naisu/naisu-web-components/tabs/tab.js";
+import { MenuItemElement } from "./@naisu/naisu-web-components/menus/menu-item.js";
+import { MenuElement } from "./@naisu/naisu-web-components/menus/menu.js";
 import { SkeletonElement } from "./@naisu/naisu-web-components/skeleton/skeleton.js";
 import { ThemeSwitchElement } from "./components/theme-switch.js";
 
@@ -17,6 +19,8 @@ customElements.define("x-divider", DividerElement);
 customElements.define("x-theme-switch", ThemeSwitchElement);
 customElements.define("x-disclosure", DisclosureElement);
 customElements.define("x-skeleton", SkeletonElement);
+customElements.define("x-menu", MenuElement);
+customElements.define("x-menu-item", MenuItemElement);
 
 const tabs = /** @type { Element } */ (document.querySelector("#tabs"));
 tabs.addEventListener("change", (e) => {
